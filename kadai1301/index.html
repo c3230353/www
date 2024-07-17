@@ -112,7 +112,22 @@
         padding: 10px;
         border: 0;
     }
+    @media screen and(max-width: 768px) {
+            .container {
+                width: 100%
+            }
+        }
+        @media screen and (max-width: 800px) {
+        .container {
+          flex-wrap: wrap;
+        }
+      }
  
+      @media screen and (max-width: 400px) {
+       .container {
+          display: block;
+        }
+      }  
 
 </style>
 <script>
